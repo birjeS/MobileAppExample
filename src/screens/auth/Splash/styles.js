@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import {colors} from '../../utils/colors';
+import { colors } from "../../utils/colors";
 
 export const styles = StyleSheet.create({
     image: {
@@ -27,7 +27,7 @@ export const styles = StyleSheet.create({
        borderWidth: 1
     },
     footerText: {
-        font: 16,
+        fontSize: 16,
         fontWeight: 'bold',
         color: 'colors.blue',
         textAlign:'center',
